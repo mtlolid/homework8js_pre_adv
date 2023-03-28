@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 50%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: #F7FAF9;
+}
+form .badwordsWrap {
+  width: 100%;
+  height: 15%;
+  font-weight: bold;
+}
+form .badwordsWrap .badwords {
+  color: red;
+}
+form .inputWrap {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+form .inputWrap input[name=wordsInput] {
+  width: 65%;
+  height: 100%;
+  padding-left: 5px;
+}
+form .inputWrap input[type=button] {
+  width: 16%;
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+}
+form .inputWrap input[type=button]:nth-of-type(2) {
+  background-color: #FEC207;
+}
+form .inputWrap input[type=button]:nth-of-type(3) {
+  background-color: #DB3543;
+  color: white;
+}
+form .textWrap {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+form .textWrap textarea {
+  width: 100%;
+  height: 70%;
+  resize: none;
+  padding-left: 5px;
+}
+form .textWrap input[type=button] {
+  width: 100%;
+  height: 25%;
+  border: none;
+  border-radius: 3px;
+  background-color: #28A743;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
